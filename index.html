@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historial de Recorrido</title>
+
+  <!-- CSS de Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Historial de Recorrido</h1>
+
+  <div id="map"></div>
+
+  <div class="controles">
+    <button id="btnIniciar">Iniciar Seguimiento</button>
+    <button id="btnDetener">Detener Seguimiento</button>
+    <button id="btnLimpiar">Limpiar Historial</button>
+  </div>
+
+  <h2>Historial de Posiciones</h2>
+  <ul id="listaHistorial"></ul>
+
+  <!-- JS de Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- JS propio -->
+  <script src="script.js"></script>
+</body>
+</html>
